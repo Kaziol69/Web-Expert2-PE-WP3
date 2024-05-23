@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 237ec4b5-c2ab-40e2-939f-bb9aa4185f53 # Featured Products
+handle: featuredProducts
+maxAuthors: 1
+name: 'Featured Products'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  7a2af929-f9e7-4f6a-bc8e-519c26584c61: # pulse
+    enabledByDefault: true
+    hasUrls: true
+    template: featured-products/_entry
+    uriFormat: 'featured-products/{slug}'
+type: channel

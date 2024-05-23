@@ -1,0 +1,72 @@
+fieldLayouts:
+  6bcd3cb2-9615-4394-99f6-1565841a97ff:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: fecbb82f-4e1c-4fc9-9ebd-024d21ee0837 # TextPlain
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6dc78cf3-1481-4211-91a6-42538bcab508
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c4ce5c76-f8b9-421e-8e04-0b73c66681f7 # footer Address
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fff278ec-0657-4828-9e25-98602767daa3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e7c048bd-645e-4b4c-af8a-4a17b76b120a # footer Phone
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b420e23c-1fa6-47b1-a1e6-f95c3de2556c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 60230ebe-82da-4eba-97a5-25918c0d5cdd # footer Hours
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 326336bc-7456-4138-964c-eaa70a9e9402
+            userCondition: null
+            warning: null
+            width: 100
+        name: Footer
+        uid: 217a07bc-c7b4-4473-8d4e-c73fe3295f0c
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 2

@@ -1,0 +1,37 @@
+columnSuffix: null
+handle: heroImage
+instructions: null
+name: 'Hero Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:84b00e8f-bfa9-412d-9fe5-d8767afadaa5' # Uploads
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:84b00e8f-bfa9-412d-9fe5-d8767afadaa5' # Uploads
+  restrictedLocationSubpath: null
+  selectionLabel: 'Add a background image'
+  showCardsInGrid: false
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:84b00e8f-bfa9-412d-9fe5-d8767afadaa5' # Uploads
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

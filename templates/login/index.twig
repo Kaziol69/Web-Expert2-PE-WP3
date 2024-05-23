@@ -1,0 +1,24 @@
+{% extends "index" %}
+
+{% block content %}
+
+<section class="center">
+        <h1>Login</h1>
+        <form method="post">
+            <div class="text_field">
+                <input type="text" required placeholder="Username">
+            </div>
+            <div class="text_field">
+                <input type="password" required placeholder="Password">
+            </div>
+            <div class="pass">
+                <p>Forgot password?</p>
+            </div>
+            <input type="submit" value="Login">
+            <div class="signup_link">
+                <p>Not a member? <a href="#">Sign up</a></p>
+            </div>
+        </form>
+    </section>
+
+{% endblock %}

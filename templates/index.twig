@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
+
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta charset="utf-8" />
-    <title>Pulse</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <meta name="referrer" content="origin-when-cross-origin" />
-    <link rel="stylesheet" href="scss/main.scss">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>pulse.</title>
+    <script src="https://kit.fontawesome.com/e00a7e113b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ siteUrl }}css/main.css">
 </head>
+
 <body>
-<div> </div>
+
+    {% include "components/_cookies.twig" %}
+
+    {% include "components/_header.twig" %}
+
+    {% block content %}
+    {% endblock %}
+
+
+
+    {% include "components/_footer.twig" %}
 </body>
+
 </html>

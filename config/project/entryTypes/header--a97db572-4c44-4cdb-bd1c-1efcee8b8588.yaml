@@ -1,0 +1,125 @@
+color: null
+fieldLayouts:
+  d3025378-7430-4e8a-ab82-f993181fbebe:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 09e08374-538c-41ce-8263-6b984a64724d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 271781e8-e3f4-479c-affb-0014004e9911 # Header Logo
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ffcf479c-8199-472e-96f0-5c47f881740d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cbb6c2db-a085-46b8-88a9-9c5623e83325 # Header Item 1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 360c9ff2-bf06-482f-ab62-02ee081ea3c3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 32a699f3-79ad-411d-906b-2bdaf0e6c6d9 # Header Item 2
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 22a24755-eac3-4ab0-a082-0dda291ee0d7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fe0a0a59-ddfb-469f-af4a-08289e1d610e # Header Item 3
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f99b9ed-4449-4d18-a181-60ee121200ca
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9dbade37-dd85-4bf3-bd3c-dedfcf0c70db # Header Item 4
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64252047-e005-4edd-a042-cf1d4774beea
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 50f43c66-8904-40dd-9a0d-21c3b44f7c52
+        userCondition: null
+handle: header
+hasTitleField: true
+icon: hat-cowboy
+name: header
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

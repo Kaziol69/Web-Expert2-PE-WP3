@@ -1,4 +1,19 @@
-    <HeaderComponent/>
-    <HeroComponent/>
-    <PopularProductsComponent/>
-    <FooterComponent/>
+ {% extends "index" %}
+
+ {% block content %}
+
+ {% set image = entry.heroImage.one() %}
+
+ <section id="hero" style="background-image: url('{{ image.url }}')">
+     <div>
+         <h4>Trade-in-Offer</h4>
+         <h2> {{ entry.heroTitle}}</h2>
+         <h1> {{ entry.heroSubtitle}}</h1>
+         <p>The best suit company in Belgium!</p>
+         <button><a href="/shop">Shop Now</a></button>
+     </div>
+ </section>
+
+ {% include "components/_featuredProducts.twig" %}
+
+ {% endblock %}

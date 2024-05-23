@@ -1,0 +1,87 @@
+fieldLayouts:
+  ca6b244e-de84-44d5-9bac-45054e48e053:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 271781e8-e3f4-479c-affb-0014004e9911 # Header Logo
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7e1add3c-0099-4e3e-bbb3-018dbed9b48e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cbb6c2db-a085-46b8-88a9-9c5623e83325 # Header Item 1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a123eb6-2561-41bf-92d5-27b305ba9468
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 32a699f3-79ad-411d-906b-2bdaf0e6c6d9 # Header Item 2
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4321340f-f8c5-472b-abcf-e3a956ec71a6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fe0a0a59-ddfb-469f-af4a-08289e1d610e # Header Item 3
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b19a62bc-e780-42b1-9084-4f0500bd17e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9dbade37-dd85-4bf3-bd3c-dedfcf0c70db # Header Item 4
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e008c34a-9462-419c-8485-ed412e941480
+            userCondition: null
+            warning: null
+            width: 100
+        name: header
+        uid: 07a647d7-11e9-4f2b-bab3-b115010740ab
+        userCondition: null
+handle: header
+name: Header
+sortOrder: 1
