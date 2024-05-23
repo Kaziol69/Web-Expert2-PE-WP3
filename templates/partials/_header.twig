@@ -1,0 +1,16 @@
+<header>
+     <a href="#"><img src="../assets/logo.png" class="logo" alt="logo"></a>
+    <nav>
+        <ul>
+            <li><RouterLink to="/" class="navbarlink">Home</RouterLink></li>
+            <li><RouterLink to="/shop" class="navbarlink">Shop</RouterLink></li>
+            <li><RouterLink to="/login" class="navbarlink">Login</RouterLink></li>
+            <li>
+                <RouterLink to="/cart" class="navbarlink">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span v-if="cartCount > 0" class="cart-count">{{ cartCount }}</span>
+                </RouterLink>
+            </li>
+        </ul>
+        </nav>
+</header>

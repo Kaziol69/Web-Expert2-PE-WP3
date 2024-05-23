@@ -1,0 +1,7 @@
+    <section id="product1" class="section-p1">
+        <h2>{{ title}}</h2>
+        <p>{{ description }}</p>
+        <div class="pro-container">
+            <ProductCardComponent  v-for="product in sortedProducts.slice(0,4)" :key="product.id" :product="product"/>
+        </div>
+    </section>
