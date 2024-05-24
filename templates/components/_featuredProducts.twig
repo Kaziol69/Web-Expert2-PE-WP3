@@ -5,6 +5,7 @@
      <div class="pro-container">
          {% for product in featuredProducts %}
          <div class="pro">
+         <a href="{{ product.url }}">
              <img src="{{ product.featuredPhotos[0].url }}">
              <div class="description">
                  <h5>{{product.featuredTitle}}</h5>
@@ -18,6 +19,7 @@
                  <h4>{{product.featuredPrice}}</h4>
              </div>
          </div>
+         </a>
          {% endfor %}
      </div>
  </section>

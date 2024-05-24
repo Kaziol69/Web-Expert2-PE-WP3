@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: shopProducts
+instructions: null
+name: 'Shop Products'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - d4550740-b1ca-4f3b-b3ce-38fd57573394 # shop products
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

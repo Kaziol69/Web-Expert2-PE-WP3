@@ -1,4 +1,4 @@
-dateModified: 1716474506
+dateModified: 1716542550
 email:
   fromEmail: emile.ict@gmail.com
   fromName: pulse
@@ -32,11 +32,13 @@ meta:
     60230ebe-82da-4eba-97a5-25918c0d5cdd: 'footer Hours' # footer Hours
     126509c1-c479-437e-a0de-33eee22967e1: 'Contact Form' # Contact Form
     271781e8-e3f4-479c-affb-0014004e9911: 'Header Logo' # Header Logo
+    3806586a-1924-4c39-a41b-91569cb2c9df: 'Shop Products' # Shop Products
     a97db572-4c44-4cdb-bd1c-1efcee8b8588: header # header
     c4ce5c76-f8b9-421e-8e04-0b73c66681f7: 'footer Address' # footer Address
     c4e65066-f69e-47d6-af7c-f4eeeb833463: 'Featured Title' # Featured Title
     cbb6c2db-a085-46b8-88a9-9c5623e83325: 'Header Item 1' # Header Item 1
     d93ba4a5-1450-41b7-9f8a-724a95002e23: Header # Header
+    d4550740-b1ca-4f3b-b3ce-38fd57573394: 'shop products' # shop products
     e7c048bd-645e-4b4c-af8a-4a17b76b120a: 'footer Phone' # footer Phone
     e3164e11-d937-4ed5-ac18-000641259f27: 'Featured Price' # Featured Price
     fe0a0a59-ddfb-469f-af4a-08289e1d610e: 'Header Item 3' # Header Item 3
