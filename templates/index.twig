@@ -8,18 +8,17 @@
     <title>pulse.</title>
     <script src="https://kit.fontawesome.com/e00a7e113b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ siteUrl }}css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
-
     {% include "components/_cookies.twig" %}
-
     {% include "components/_header.twig" %}
 
     {% block content %}
     {% endblock %}
-
-
 
     {% include "components/_footer.twig" %}
 </body>

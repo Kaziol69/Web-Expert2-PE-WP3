@@ -66,6 +66,21 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 25743963-c682-433c-9442-1f382dd803b2 # Featured Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 69b540c5-ad3f-4c52-b741-96a68e280c53
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: e3164e11-d937-4ed5-ac18-000641259f27 # Featured Price
             handle: null
             includeInCards: false

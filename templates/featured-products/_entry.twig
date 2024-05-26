@@ -1,5 +1,28 @@
 {% extends "index" %}
 
 {% block content %}
+{% set productId = craft.app.request.segment(2) %}
+{% set product = craft.entries.section("featuredProducts").slug(productId).one() %}
 
+{% if product %}
+<section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <a href="/shop"><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="{{ product.featuredPhotos[0].url }}" alt="{{ product.featuredTitle }}" width="100%" id="mainimg" />
+    </div>
+    <div class="single-pro-details">
+        <h6>Home / Suits</h6>
+        <h4>{{ product.featuredTitle }}</h4>
+        <h2>{{ product.featuredPrice }}</h2>
+        <p>{{ product.featuredDescription }}</p>
+        <div class="quantity-controls">
+            <button onclick="decrementQuantity()">-</button>
+            <input type="number" min="1" max="MaxQuantity" value="1" id="quantityInput" />
+            <button onclick="incrementQuantity()">+</button>
+        </div>
+        <button onclick="addToCart()" disabled> Add to Cart </button>
+        <span class="error-message" style="display:none;">Not enough stock available</span>
+    </div>
+</section>
+{% endif %}
 {% endblock %}

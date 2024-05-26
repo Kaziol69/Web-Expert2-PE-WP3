@@ -1,9 +1,9 @@
 {% extends "index" %}
-
 {% block content %}
+{% include "components/_animation.twig" %}
 
 <div id="container" class="container">
-    <div class="contact-form">
+    <div class="contact-form" data-aos="fade-up">
         <h1 class="contactTitle">Contact Us</h1>
         <h3 class="contactSubtitle">Questions or comments? Reach out!</h3>
         <form action="https://formspree.io/f/xkndazon" method="POST">

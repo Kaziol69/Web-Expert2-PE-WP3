@@ -1,11 +1,13 @@
 <header>
-    <a href="{{ siteUrl }}"><img src="assets/logo.png" class="logo" alt="logo"></a>
+    <a href="{{ siteUrl }}">
+        <img src="{{ header.headerLogo.one.url }}" class="logo" alt="logo">
+    </a>
     <nav>
         <ul>
-            <li><a href="{{ siteUrl }}">{{header.headerItem1}}</a></li>
-            <li><a href="/shop">{{header.headerItem2}}</a></li>
-            <li><a href="/contact">{{header.headerItem3}}</a></li>
-            <li><a href="/login">{{header.headerItem4}}</a></li>
+            <li><a href="{{ siteUrl }}">{{ header.headerItem1 }}</a></li>
+            <li><a href="/shop">{{ header.headerItem2 }}</a></li>
+            <li><a href="/contact">{{ header.headerItem3 }}</a></li>
+            <li><a href="/login">{{ header.headerItem4 }}</a></li>
             <li><a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
         </ul>
     </nav>

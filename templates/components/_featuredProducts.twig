@@ -1,25 +1,26 @@
- {% set featuredProducts = craft.entries.section("featuredProducts").all() %}
- <section id="product1" class="section-p1">
-     <h2>Featured Products</h2>
-     <p>Summer Collection New Suit Designs</p>
-     <div class="pro-container">
-         {% for product in featuredProducts %}
-         <div class="pro">
-         <a href="{{ product.url }}">
-             <img src="{{ product.featuredPhotos[0].url }}">
-             <div class="description">
-                 <h5>{{product.featuredTitle}}</h5>
-                 <div class="star">
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                 </div>
-                 <h4>{{product.featuredPrice}}</h4>
-             </div>
-         </div>
-         </a>
-         {% endfor %}
-     </div>
- </section>
+{% include "components/_animation.twig" %}
+{% set featuredProducts = craft.entries.section("featuredProducts").all() %}
+<section id="product1" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Summer Collection New Suit Designs</p>
+    <div class="pro-container" >
+        {% for product in featuredProducts %}
+        <div class="pro">
+            <a href="{{ product.url }}">
+                <img src="{{ product.featuredPhotos[0].url }}">
+                <div class="description">
+                    <h5>{{product.featuredTitle}}</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>{{product.featuredPrice}}</h4>
+                </div>
+        </div>
+        </a>
+        {% endfor %}
+    </div>
+</section>

@@ -1,11 +1,11 @@
  {% extends "index" %}
-
  {% block content %}
+ {% include "components/_animation.twig" %}
 
  {% set image = entry.heroImage.one() %}
 
  <section id="hero" style="background-image: url('{{ image.url }}')">
-     <div>
+     <div data-aos="fade-up">
          <h4>Trade-in-Offer</h4>
          <h2> {{ entry.heroTitle}}</h2>
          <h1> {{ entry.heroSubtitle}}</h1>
