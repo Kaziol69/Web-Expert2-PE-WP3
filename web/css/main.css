@@ -503,17 +503,6 @@ footer .copyright {
   z-index: 999;
 }
 
-.wrapper.hider {
-  opacity: 0;
-  pointer-events: none;
-  transform: scale(0.8);
-  transition: all 0.3s ease;
-}
-
-.wrapper.hidden {
-  display: none;
-}
-
 .content header {
   font-size: 25px;
 }
@@ -637,6 +626,7 @@ footer .copyright {
   font-size: 16px;
   text-align: center;
 }
+
 #prodetails .single-pro-details .quantity-controls .error-message {
   color: red;
   margin-top: 10px;

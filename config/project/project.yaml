@@ -1,4 +1,4 @@
-dateModified: 1716747892
+dateModified: 1716827250
 email:
   fromEmail: emile.ict@gmail.com
   fromName: pulse
@@ -23,14 +23,12 @@ meta:
     9dbade37-dd85-4bf3-bd3c-dedfcf0c70db: 'Header Item 4' # Header Item 4
     30ec3736-74c8-4d3c-aad6-7db4f0ead434: 'Featured Photos' # Featured Photos
     32a699f3-79ad-411d-906b-2bdaf0e6c6d9: 'Header Item 2' # Header Item 2
-    57cedd96-6cad-4842-b5cd-d07bfcadbdec: New # New
     84b00e8f-bfa9-412d-9fe5-d8767afadaa5: Uploads # Uploads
     119b9697-1caf-471b-b435-6379fd1663e8: Footer # Footer
     237ec4b5-c2ab-40e2-939f-bb9aa4185f53: 'Featured Products' # Featured Products
     738e5617-b232-4f66-9c07-204f1580aacf: 'Featured Products' # Featured Products
     1182f933-6ad4-4428-a7ce-7ae644662e5d: HeroSubTitle # HeroSubTitle
     60230ebe-82da-4eba-97a5-25918c0d5cdd: 'footer Hours' # footer Hours
-    126509c1-c479-437e-a0de-33eee22967e1: 'Contact Form' # Contact Form
     271781e8-e3f4-479c-affb-0014004e9911: 'Header Logo' # Header Logo
     3806586a-1924-4c39-a41b-91569cb2c9df: 'Shop Products' # Shop Products
     25743963-c682-433c-9442-1f382dd803b2: 'Featured Description' # Featured Description
@@ -44,18 +42,8 @@ meta:
     e3164e11-d937-4ed5-ac18-000641259f27: 'Featured Price' # Featured Price
     fe0a0a59-ddfb-469f-af4a-08289e1d610e: 'Header Item 3' # Header Item 3
     fecbb82f-4e1c-4fc9-9ebd-024d21ee0837: TextPlain # TextPlain
-plugins:
-  cookies:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  formie:
-    edition: standard
-    enabled: true
-    licenseKey: GFXZ01VVNC4K25CBN1WWDULJ
-    schemaVersion: 3.4.4
 system:
-  edition: pro
+  edition: solo
   live: true
   name: pulse
   schemaVersion: 5.0.0.20
