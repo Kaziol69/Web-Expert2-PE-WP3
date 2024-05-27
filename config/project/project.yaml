@@ -1,4 +1,4 @@
-dateModified: 1716827353
+dateModified: 1716747892
 email:
   fromEmail: emile.ict@gmail.com
   fromName: pulse
@@ -47,6 +47,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: GFXZ01VVNC4K25CBN1WWDULJ
+    schemaVersion: 3.4.4
 system:
   edition: solo
   live: true
