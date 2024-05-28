@@ -8,44 +8,44 @@ fs:
     hasUrls: true
     name: Uploads
     settings:
-      path: '@webroot/files'
+      path: "@webroot/files"
     type: craft\fs\Local
     url: /files
 meta:
   __names__:
     2ebf5369-91d5-4e85-85ab-c1b88b31982d: home # home
     3d499c84-d1eb-482b-93dc-eef61cdf709e: Home # Home
-    5b8604c1-72e7-495f-b58d-664787b7da29: 'Hero Image' # Hero Image
-    6d4327b7-fb3e-444e-af00-966d25286ea4: 'Public Schema' # Public Schema
+    5b8604c1-72e7-495f-b58d-664787b7da29: "Hero Image" # Hero Image
+    6d4327b7-fb3e-444e-af00-966d25286ea4: "Public Schema" # Public Schema
     7a2af929-f9e7-4f6a-bc8e-519c26584c61: pulse # pulse
     8f222587-c266-48e6-9967-b15b1997e199: pulse # pulse
-    9d8a3e10-42c3-4047-850a-38e439a11eb1: 'Hero Title' # Hero Title
-    9dbade37-dd85-4bf3-bd3c-dedfcf0c70db: 'Header Item 4' # Header Item 4
-    30ec3736-74c8-4d3c-aad6-7db4f0ead434: 'Featured Photos' # Featured Photos
-    32a699f3-79ad-411d-906b-2bdaf0e6c6d9: 'Header Item 2' # Header Item 2
+    9d8a3e10-42c3-4047-850a-38e439a11eb1: "Hero Title" # Hero Title
+    9dbade37-dd85-4bf3-bd3c-dedfcf0c70db: "Header Item 4" # Header Item 4
+    30ec3736-74c8-4d3c-aad6-7db4f0ead434: "Featured Photos" # Featured Photos
+    32a699f3-79ad-411d-906b-2bdaf0e6c6d9: "Header Item 2" # Header Item 2
     84b00e8f-bfa9-412d-9fe5-d8767afadaa5: Uploads # Uploads
     119b9697-1caf-471b-b435-6379fd1663e8: Footer # Footer
-    225a31f9-8e57-4e99-ae1c-5d96c0e7eaed: 'Shop Color' # Shop Color
-    237ec4b5-c2ab-40e2-939f-bb9aa4185f53: 'Featured Products' # Featured Products
-    738e5617-b232-4f66-9c07-204f1580aacf: 'Featured Products' # Featured Products
+    225a31f9-8e57-4e99-ae1c-5d96c0e7eaed: "Shop Color" # Shop Color
+    237ec4b5-c2ab-40e2-939f-bb9aa4185f53: "Featured Products" # Featured Products
+    738e5617-b232-4f66-9c07-204f1580aacf: "Featured Products" # Featured Products
     1182f933-6ad4-4428-a7ce-7ae644662e5d: HeroSubTitle # HeroSubTitle
-    60230ebe-82da-4eba-97a5-25918c0d5cdd: 'footer Hours' # footer Hours
+    60230ebe-82da-4eba-97a5-25918c0d5cdd: "footer Hours" # footer Hours
     83371dd0-ef0d-435a-98dc-92d6e93faf55: Sizes # Sizes
-    271781e8-e3f4-479c-affb-0014004e9911: 'Header Logo' # Header Logo
-    3806586a-1924-4c39-a41b-91569cb2c9df: 'Shop Products' # Shop Products
-    25743963-c682-433c-9442-1f382dd803b2: 'Featured Description' # Featured Description
+    271781e8-e3f4-479c-affb-0014004e9911: "Header Logo" # Header Logo
+    3806586a-1924-4c39-a41b-91569cb2c9df: "Shop Products" # Shop Products
+    25743963-c682-433c-9442-1f382dd803b2: "Featured Description" # Featured Description
     a97db572-4c44-4cdb-bd1c-1efcee8b8588: header # header
-    bb52e698-9320-469a-9272-86aff024e282: 'Products Shop' # Products Shop
-    c4ce5c76-f8b9-421e-8e04-0b73c66681f7: 'footer Address' # footer Address
-    c4e65066-f69e-47d6-af7c-f4eeeb833463: 'Featured Title' # Featured Title
-    ca732929-62cb-4ca5-ba90-a7cc9bd80e34: 'Shop Products' # Shop Products
-    cbb6c2db-a085-46b8-88a9-9c5623e83325: 'Header Item 1' # Header Item 1
+    bb52e698-9320-469a-9272-86aff024e282: "Products Shop" # Products Shop
+    c4ce5c76-f8b9-421e-8e04-0b73c66681f7: "footer Address" # footer Address
+    c4e65066-f69e-47d6-af7c-f4eeeb833463: "Featured Title" # Featured Title
+    ca732929-62cb-4ca5-ba90-a7cc9bd80e34: "Shop Products" # Shop Products
+    cbb6c2db-a085-46b8-88a9-9c5623e83325: "Header Item 1" # Header Item 1
     d93ba4a5-1450-41b7-9f8a-724a95002e23: Header # Header
-    d4550740-b1ca-4f3b-b3ce-38fd57573394: 'shop products' # shop products
-    ddc99948-846c-41ca-9e6f-20f5ba718495: 'Shop Size' # Shop Size
-    e7c048bd-645e-4b4c-af8a-4a17b76b120a: 'footer Phone' # footer Phone
-    e3164e11-d937-4ed5-ac18-000641259f27: 'Featured Price' # Featured Price
-    fe0a0a59-ddfb-469f-af4a-08289e1d610e: 'Header Item 3' # Header Item 3
+    d4550740-b1ca-4f3b-b3ce-38fd57573394: "shop products" # shop products
+    ddc99948-846c-41ca-9e6f-20f5ba718495: "Shop Size" # Shop Size
+    e7c048bd-645e-4b4c-af8a-4a17b76b120a: "footer Phone" # footer Phone
+    e3164e11-d937-4ed5-ac18-000641259f27: "Featured Price" # Featured Price
+    fe0a0a59-ddfb-469f-af4a-08289e1d610e: "Header Item 3" # Header Item 3
     fecbb82f-4e1c-4fc9-9ebd-024d21ee0837: TextPlain # TextPlain
 system:
   edition: solo
