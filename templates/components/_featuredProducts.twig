@@ -3,10 +3,10 @@
 <section id="product1" class="section-p1">
     <h2>Featured Products</h2>
     <p>Summer Collection New Suit Designs</p>
-    <div class="pro-container" >
+    <div class="pro-container">
         {% for product in featuredProducts %}
         <div class="pro">
-            <a href="{{ product.url }}">
+            <a href="{{ product.url }}" style="text-decoration: none; color: inherit;">
                 <img src="{{ product.featuredPhotos[0].url }}">
                 <div class="description">
                     <h5>{{product.featuredTitle}}</h5>
@@ -19,8 +19,8 @@
                     </div>
                     <h4>{{product.featuredPrice}}</h4>
                 </div>
+            </a>
         </div>
-        </a>
         {% endfor %}
     </div>
 </section>

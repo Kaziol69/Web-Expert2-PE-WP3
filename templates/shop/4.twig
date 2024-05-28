@@ -71,16 +71,15 @@
 </section>
 <section id="pagination" class="section-p1">
     {% if currentPage > 1 %}
-    <a href="/shop">First</a>
-    <a href="/shop/{{ currentPage - 1 }}{% if sizeFilter %}?size={{ sizeFilter }}{% endif %}{% if colorFilter %}{% if sizeFilter %}&color={{ colorFilter }}{% else %}?color={{ colorFilter }}{% endif %}{% endif %}">Previous</a>
+    <a href="/shop/{{ currentPage - 1 }}">Previous</a>
     {% endif %}
-
+    
     {% for page in 1..totalPages %}
-    <a href="/shop/{{ page == 1 ? '' : page }}{% if sizeFilter %}?size={{ sizeFilter }}{% endif %}{% if colorFilter %}{% if sizeFilter %}&color={{ colorFilter }}{% else %}?color={{ colorFilter }}{% endif %}{% endif %}" class="{{ currentPage == page ? 'active' : '' }}">{{ page }}</a>
+    <a href="/shop/{{ page == 1 ? '' : page }}" class="{{ currentPage == page ? 'active' : '' }}">{{ page }}</a>
     {% endfor %}
-
+    
     {% if currentPage < totalPages %}
-    <a href="/shop/{{ currentPage + 1 }}{% if sizeFilter %}?size={{ sizeFilter }}{% endif %}{% if colorFilter %}{% if sizeFilter or currentPage > 1 %}&color={{ colorFilter }}{% else %}?color={{ colorFilter }}{% endif %}{% endif %}">Next</a>
+    <a href="/shop/{{ currentPage + 1 }}">Next</a>
     {% endif %}
 </section>
 

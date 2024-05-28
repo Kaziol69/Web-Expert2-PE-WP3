@@ -1,0 +1,140 @@
+color: null
+fieldLayouts:
+  8a3efc48-578d-4f5d-a013-f02f8bb1396c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d3232b1d-cb41-417a-9a34-3c43b24cc917
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 30ec3736-74c8-4d3c-aad6-7db4f0ead434 # Featured Photos
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aea92f5c-72f6-417b-90bc-32b972371517
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c4e65066-f69e-47d6-af7c-f4eeeb833463 # Featured Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c7bfd659-6ba1-4923-94a5-cbaddee1653e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e3164e11-d937-4ed5-ac18-000641259f27 # Featured Price
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ce77dcdd-b56c-43f2-b3dd-9ca0b6b2c0fd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 25743963-c682-433c-9442-1f382dd803b2 # Featured Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe52a390-b94b-4d98-980e-ab506652c551
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ddc99948-846c-41ca-9e6f-20f5ba718495 # Shop Size
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3b364934-f457-4295-b9ed-1f3feec1d48d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225a31f9-8e57-4e99-ae1c-5d96c0e7eaed # Shop Color
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3eb8a7ba-64cb-4585-8f35-69074d5319aa
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6baaf488-14ff-4ca1-a3ea-4a388ea63b8f
+        userCondition: null
+handle: productsShop
+hasTitleField: true
+icon: archway
+name: 'Products Shop'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
